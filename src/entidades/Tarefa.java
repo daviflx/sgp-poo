@@ -31,8 +31,7 @@ public class Tarefa {
         this.projeto = projeto;
     }
     private Projeto projeto;
-    public Tarefa(long id, String titulo, String descricao, LocalDate dataCriacao, LocalDate dataConclusao,
-            PrioridadeTarefa prioridade, StatusTarefa status) {
+    public Tarefa() {
         this.id = id;
         this.titulo = titulo;
         this.descricao = descricao;
