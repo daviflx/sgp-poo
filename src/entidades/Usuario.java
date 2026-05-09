@@ -2,6 +2,8 @@ package entidades;
 
 import java.time.LocalDate;
 
+import enums.StatusUsuario;
+
 public class Usuario {
     private long id;
     private String nome;
@@ -79,7 +81,5 @@ public class Usuario {
 
     public void setStatus(StatusUsuario status) {
         this.status = status;
-    }
-
-    
+    } 
 }
