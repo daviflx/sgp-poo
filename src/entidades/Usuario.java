@@ -2,11 +2,20 @@ package entidades;
 
 import java.time.LocalDate;
 
-import enums.StatusUsuario;
-
 public class Usuario {
     private long id;
     private String nome;
+    public Usuario(long id, String nome, String cpf, String email, String senha, LocalDate dataNascimento,
+            StatusUsuario status) {
+        this.id = id;
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
+        this.senha = senha;
+        this.dataNascimento = dataNascimento;
+        this.status = status;
+    }
+
     private String cpf;
     private String email;
     private String senha;

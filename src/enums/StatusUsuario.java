@@ -1,5 +1,7 @@
 package enums;
 
-public class StatusUsuario {
-    
+public enum StatusUsuario {
+    ATIVO,
+    CONCLUIDO,
+    CANCELADO
 }
